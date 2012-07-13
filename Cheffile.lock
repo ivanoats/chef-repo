@@ -1,0 +1,32 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.1.12)
+    chef-client (1.1.4)
+    chef_handler (1.0.6)
+    openssl (1.0.0)
+    windows (1.3.2)
+      chef_handler (>= 0.0.0)
+
+GIT
+  remote: https://github.com/fnichol/chef-rvm
+  ref: master
+  sha: 6411f1194c2f57dc2578e87d9ca89199561512dd
+  specs:
+    rvm (0.9.1)
+
+GIT
+  remote: https://github.com/opscode-cookbooks/mysql.git
+  ref: 1.2.6
+  sha: b088c2f61af52fb48172b803139a5460cd5f5bf9
+  specs:
+    mysql (1.2.6)
+      openssl (>= 0.0.0)
+      windows (>= 0.0.0)
+
+DEPENDENCIES
+  apache2 (>= 1.0.0)
+  chef-client (>= 0)
+  mysql (>= 0)
+  rvm (>= 0)
+
