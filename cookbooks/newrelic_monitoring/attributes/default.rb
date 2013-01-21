@@ -17,4 +17,4 @@
 # limitations under the License.
 #
 
-default['newrelic']['license_key'] = "SET_THIS"
+default['newrelic']['license_key'] = "ec67bb6628e3d6ff955609bc8483e9a57f2c7ff3"
